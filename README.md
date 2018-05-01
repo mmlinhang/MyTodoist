@@ -1,12 +1,12 @@
 MyTodoist  ----- 管理代办事项 V0
 =
     一、使用技术：
-①前端：
+①前端(forehead分支中)：
 <br>React实现前端基本构架
 <br>+ Bootstrap + jquery 实现前端样式 
 <br>+ axios 实现前后端交互（http交互）
 <br><br><br>
-②后端：
+②后端(master分支中)：
 <br>
 Django作为基本框架
 <br>+Django Restframework生成Restful风格的API接口
@@ -15,7 +15,7 @@ Django作为基本框架
 <br>使用Django自带数据库sqlite
 <br><br><br>
 
-    二、实现功能列表：
+    二、实现功能列表：
  ①增加代办事项
 <br> ②删除待办事项
 <br> ③修改代办事项
