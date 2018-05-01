@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap布局</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet" media="screen">
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery.js"></script>
+
+  <script src="https://cdn.bootcss.com/moment.js/2.18.1/moment-with-locales.min.js"></script>  
+  <link href="https://cdn.bootcss.com/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css" rel="stylesheet">  
+  <script src="https://cdn.bootcss.com/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js">
+  </script> 
+
+  </head>
+  <body>
+  	<div id="root"></div>
+    <script>
+      $(function() {
+          $(".menu-item").first().addClass("menu-item-active");
+          $(".menu-item").click(function() {
+              $(".menu-item").removeClass("menu-item-active");
+              $(this).addClass("menu-item-active");
+          });
+      });
+      $(function () {  
+        $('#date1').datetimepicker({  
+            format: 'YYYY-MM-DD',  
+            locale: moment.locale('zh-cn')  
+        });  
+      });  
+
+    </script>
+
+  </body>
