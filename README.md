@@ -36,7 +36,7 @@ Django作为基本框架
 <br><br>
 ②展示全部代办事项：
 <br>
-![](E:/jiuzhang/2.png)<br>
+!(E:/jiuzhang/2.png)<br>
 <br>
 
 ③增加一个待办事项：
