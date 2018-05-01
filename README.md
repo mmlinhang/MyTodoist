@@ -1,12 +1,12 @@
 MyTodoist  ----- 管理代办事项 V0
 =
     一、使用技术：
-①前端(forehead分支中)：
+①前端(`forehead分支中`)：
 <br>React实现前端基本构架
 <br>+ Bootstrap + jquery 实现前端样式 
 <br>+ axios 实现前后端交互（http交互）
 <br><br><br>
-②后端(master分支中)：
+②后端(`master分支中`)：
 <br>
 Django作为基本框架
 <br>+Django Restframework生成Restful风格的API接口
