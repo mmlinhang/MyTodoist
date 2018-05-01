@@ -31,7 +31,7 @@ Django作为基本框架
     三、功能实现截图：
 <br>①展示当天待办事项：
 <br>
-![](https://github.com/mmlinhang/MyTodoist/raw/master/E:/jiuzhang/1.png)
+![](https://github.com/mmlinhang/MyTodoist/raw/results/results/1.png)
 <br> 其中：左侧为导航栏，可分别查看今日、七天内（未实现）、全部的代办事项；<br>
 右侧展示代办事项和一些对代办事项的操作。<br>
 <br><br>
